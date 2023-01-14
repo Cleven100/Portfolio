@@ -20,11 +20,30 @@ export default function Profile() {
 
                     </div>
 
-
+                  <h2 className='text-h2'>Hello, I'm</h2>
+                  
                     <div className='profile-details-name'>
                         <span className='primary-text'>
                             {" "}
-                            Hello, I'm <span className='highlighted-text'>Cleven Nesello</span>
+                            
+                           
+                                <span className='highlighted-texts'>
+                                     <ul>
+                                     <li>C</li>
+                                     <li>L</li>
+                                     <li>E</li>
+                                     <li>V</li>
+                                     <li>E</li>
+                                     <li>N</li>
+                                    
+                                     <li className="spacing">NESELLO</li>
+                                     
+                                   
+                                     <div className='clear'></div>
+                                     </ul>
+                                </span>
+                           
+                             
                         </span>
                     </div>
                     <div className='profile-datails-role'>
@@ -37,28 +56,27 @@ export default function Profile() {
                                     loop={Infinity}
                                     steps={[
                                         "Full Stack Development",
-                                        1000,
+                                        3000,
                                         "Mongo, Express , React and Node",
-                                        1000,
-                                        "Mongo, Express, Angular and Node",
-                                        1000,
+                                        3000,
                                         "C# - Asp.NET CORE & React",
-                                        1000,
+                                        3000,
                                     ]}
                                 />
                             </h1>
+                            
                             <span className='profile-role-tagline'>
-                                Building application with front and back end operations
+                            Engineering a web application that handles both front-end and back-end processes
                             </span>
                         </span>
                     </div>
                     <div className='profile-options'>
-                        <button className='btn primary-btn'>
+                        <button className='btn-custom primary-btn '>
                             {""}
-                            Hire me{" "}
+                            I'm available for hire{" "}
                         </button>
                         <a href='Profile.pdf' download='Cleven Profile.pdf'>
-                            <button className='btn highlighted-btn'>Get Resume</button>
+                            <button className='btn-custom-get'>Get Resume</button>
                         </a>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { TOTAL_SCREENS } from '../utilities/commonUtils'
 
-export default function PortigolioContainer() {
+export default function PortifolioContainer() {
     const mapAllScreens = () => {
         return(
             TOTAL_SCREENS.map((screen) => (
