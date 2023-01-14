@@ -1,0 +1,71 @@
+.profile-container {
+    color: wheat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-width: fit-content;
+    background-size: cover;
+   
+}
+
+.profile-parent {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile-datails-name {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+
+.profile-datails-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.profile-datails-role h1 {
+  font-size: 40px;
+  font-family: cursive;
+
+}
+
+.highlighted-text {
+ color: rgb(229, 227, 250);
+ font-size: 18px;
+}
+
+.profile-role-tagline{
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+  
+}
+
+.profile-options .highlighted-text {
+    margin: 0 0 0 28px;
+}
+
+.profile-options .highlighted-btn:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+
+}
+
+
+.colz .colz-icon i {
+    color: #FFF !important;
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 30px;
+    
+}
+
+.colz .colz-icon i:hover {
+transform: scale(1.5);
+}
